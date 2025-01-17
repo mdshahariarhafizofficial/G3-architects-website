@@ -151,7 +151,53 @@ header{
     max-width: 537px;
 }
 
-
+/* Features Section Styles */
+.features-container{
+    gap: 146px;
+}
+.features-container .feature-left .feature-text{
+    max-width: 586px;
+}
+.features-container .feature-left .feature-text #feature-heading{
+    border-left: 5px solid rgb(255, 137, 2);
+    padding-left: 21px;
+}
+.features-container .feature-left .features-items .feature-box{
+    max-width: 586px;
+    height: 171px;
+    padding: 20px 42px 0px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.features-container .feature-left .features-items .feature-box > h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #131313;
+}
+.features-container .feature-left .features-items .feature-box > p{
+    margin-bottom: 0;
+}
+.features-container .feature-right .feature-img img{
+    width: 100%;
+}
+.features-container .feature-right #exp-btn{
+    padding: 45px 42px;
+    color: white;
+    background: rgba(255, 144, 14, 1);
+    border: none;
+    border-radius: 8px;
+    margin-left: -100px;
+    margin-top: -90px;
+}
+.features-container .feature-right #exp-btn #year10{
+    font-size: 65px;
+    font-weight: 700;
+}
+.features-container .feature-right #exp-btn > #experience{
+    font-size: 25px;
+    font-weight: 600;
+}
 /* Responsive Media Query */
 .hide{
     display: none;
