@@ -205,11 +205,14 @@ header{
 
 /* For Smaller Device */
 @media screen and (max-width: 576px) {
+    .nav-container, .team-container, .features-container{
+        flex-direction: column;
+    }
+    section{
+        margin: 60px 0;
+    }
     .container, .nav-logo{
         margin: 0 10px;
-    }
-    .nav-container, .team-container{
-        flex-direction: column;
     }
     header{
         padding-top: 20px;
@@ -230,15 +233,27 @@ header{
     .team-container .team-right .team-text{
         padding: 0 20px;
     }
+    .features-container{
+        gap: 50px;
+    }
+    .features-container .feature-right #exp-btn{
+        margin: -100px 0 0 0;
+    }
 }
 
 /* For Medium Device */
 @media screen and (min-width: 576px) and (max-width: 992px){
-    .nav-container, .team-container{
+    .nav-container, .team-container,.features-container{
         flex-direction: column;
     }
     .nav-container .nav-logo{
         margin-bottom: 30px;
+    }
+    .features-container .feature-left{
+        padding: 0 0 0 60px;
+    }
+    .features-container .feature-right #exp-btn{
+        margin: -100px 0 0 20px;
     }
 }
 
