@@ -6,3 +6,119 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Css Common Styles */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(255, 144, 14, 1);
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background: #131313;
+    transition: 0.5s;
+}
+.pra-style{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(114, 114, 114, 1);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.sec-heading{
+    font-size: 2.81rem;
+    color: #131313;
+    font-weight: bold;
+}
+/* All Colors */
+.Dark-01{
+    color: #131313;
+}
+.Dark-02{
+    color: rgba(66, 66, 66, 1);
+}
+.Dark-03{
+    color: rgba(114, 114, 114, 1);
+}
+.Dark-04{
+    color: rgba(161, 161, 161, 1);
+}
+.Dark-05{
+    color: rgba(208, 208, 208, 1);
+}
+.sec-bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.primary-bg-color{
+    background: rgba(255, 144, 14, 1);
+}
+
+/* Header Style */
+
+/* nav style */
+header{
+    padding: 50px;
+}
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container .nav-log{
+    align-items: center;
+}
+.nav-log #g3{
+    color: rgb(255, 137, 2);
+}
+.nav-container .nav-log h1{
+    padding-top: 10px;
+    margin-left: 5px;
+}
+.nav-container .nav-log img{
+    width: 50px;
+}
+.nav-menu ul{
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+.nav-menu ul li a:hover{
+    color: rgb(255, 137, 2);
+}
+/* hero section style */
+.hero-section .hero-content{
+    max-width: 868px;
+    margin: 50px auto;
+}
+.hero-section .hero-content h2{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #131313;
+}
+.hero-section .hero-image img{
+    width: 100%;
+}
