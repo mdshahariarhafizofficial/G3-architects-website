@@ -76,23 +76,23 @@
 
 /* nav style */
 header{
-    padding: 50px;
+    padding: 50px 0;
 }
 .nav-container{
     justify-content: space-between;
     align-items: center;
 }
-.nav-container .nav-log{
+.nav-container .nav-logo{
     align-items: center;
 }
-.nav-log #g3{
+.nav-logo #g3{
     color: rgb(255, 137, 2);
 }
-.nav-container .nav-log h1{
+.nav-container .nav-logo h1{
     padding-top: 10px;
     margin-left: 5px;
 }
-.nav-container .nav-log img{
+.nav-container .nav-logo img{
     width: 50px;
 }
 .nav-menu ul{
@@ -121,4 +121,29 @@ header{
 }
 .hero-section .hero-image img{
     width: 100%;
+}
+
+/* Responsive Media Query */
+
+/* For Smaller Device */
+@media screen and (max-width: 576px) {
+    .container, .nav-logo{
+        margin: 0 10px;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    header{
+        padding-top: 20px;
+    }
+    .nav-menu > ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-container .nav-logo{
+        margin-bottom: 20px;
+    }
+    .nav-container .nav-logo img{
+        width: 100px;
+    }
 }
