@@ -105,6 +105,7 @@ header{
     color: rgba(66, 66, 66, 1);
     font-size: 1.12rem;
     font-weight: 500;
+    outline: none;
 }
 .nav-menu ul li a:hover{
     color: rgb(255, 137, 2);
@@ -141,9 +142,20 @@ header{
         justify-content: center;
     }
     .nav-container .nav-logo{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .nav-container .nav-logo img{
         width: 100px;
     }
 }
+
+/* For Medium Device */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-container .nav-logo{
+        margin-bottom: 30px;
+    }
+}
+
