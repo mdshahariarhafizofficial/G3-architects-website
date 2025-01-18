@@ -265,9 +265,6 @@ footer .footer-content .footer-logo img{
 }
 
 /* Responsive Media Query */
-.hide{
-    display: none;
-}
 
 /* For Smaller Device */
 @media screen and (max-width: 576px) {
