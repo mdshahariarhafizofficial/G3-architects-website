@@ -233,6 +233,19 @@ header{
     width: 50px;
 }
 
+/* Sponsor Section Styles */
+.sponsor-section .sponsor-logos{
+    filter: grayscale(100);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+.sponsor-section .sponsor-text{
+    max-width: 542px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
 
 /* Responsive Media Query */
 .hide{
@@ -279,6 +292,10 @@ header{
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
     }
+    .sponsor-section .sponsor-logos{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
 }
 
 /* For Medium Device */
@@ -304,5 +321,10 @@ header{
         text-align: center;
         margin-bottom: 60px;
     }
+    .sponsor-section .sponsor-logos{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
 }
+
 
