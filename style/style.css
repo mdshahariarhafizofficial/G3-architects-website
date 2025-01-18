@@ -191,13 +191,48 @@ header{
     margin-top: -90px;
 }
 .features-container .feature-right #exp-btn #year10{
-    font-size: 65px;
+    font-size: 1.56rem;
     font-weight: 700;
 }
 .features-container .feature-right #exp-btn > #experience{
     font-size: 25px;
     font-weight: 600;
 }
+/* Facts Section Styles */
+.facts-section .fact-text{
+    max-width: 542px;
+    margin-bottom: 100px;
+}
+.facts-section .facts-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.facts-section .facts-items .fact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 241px;
+    height: 241px;
+    border: 1px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+}
+.facts-section .facts-items .fact-box h3{
+    font-size: 2.81rem;
+    font-weight: 600;
+    color: rgba(66, 66, 66, 1);
+}
+.facts-section .facts-items .fact-box h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(114, 114, 114, 1);
+}
+.facts-section .facts-items .fact-box img{
+    width: 50px;
+}
+
+
 /* Responsive Media Query */
 .hide{
     display: none;
