@@ -91,7 +91,7 @@ header{
 .nav-container .nav-logo{
     align-items: center;
 }
-.nav-logo #g3{
+#g3{
     color: rgb(255, 137, 2);
 }
 .nav-container .nav-logo h1{
@@ -246,6 +246,23 @@ header{
     margin-bottom: 50px;
 }
 
+/* Footer Section Style */
+footer .footer-content{
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+footer .footer-content .footer-logo{
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-content .footer-logo h1{
+    font-size: 1.28rem;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+footer .footer-content .footer-logo img{
+    width: 50px;
+}
 
 /* Responsive Media Query */
 .hide{
