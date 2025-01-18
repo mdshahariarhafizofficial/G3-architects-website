@@ -264,9 +264,13 @@ footer .footer-content .footer-logo img{
     width: 50px;
 }
 
-/* Responsive Media Query */
+/*/////////////////// Responsive Media Query /////////////////////////////*/
+/*/////////////////// Responsive Media Query /////////////////////////////*/
+/*/////////////////// Responsive Media Query /////////////////////////////*/
+/*/////////////////// Responsive Media Query /////////////////////////////*/
 
-/* For Smaller Device */
+/*//////////////// For Smaller Device //////////////////*/
+
 @media screen and (max-width: 576px) {
     .nav-container, .team-container, .features-container{
         flex-direction: column;
@@ -312,7 +316,8 @@ footer .footer-content .footer-logo img{
     }
 }
 
-/* For Medium Device */
+/*////////////////// For Medium Device ////////////////////*/
+
 @media screen and (min-width: 576px) and (max-width: 992px){
     .nav-container, .team-container,.features-container{
         flex-direction: column;
